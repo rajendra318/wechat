@@ -1,0 +1,21 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "This is a group chat app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "serve": "node server",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Rajendra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
